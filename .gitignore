@@ -28,5 +28,6 @@ initialize_constant_array
 initialize_two_arrays
 iterate_array
 search_array
+string_test
 sum_array
 survey
