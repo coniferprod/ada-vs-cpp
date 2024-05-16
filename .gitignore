@@ -1,0 +1,28 @@
+# Object files from GNAT, g++ and clang++
+*.ali
+*.o
+
+# Configuration files
+.vscode
+.DS_Store
+
+# Original Deitel & Deitel C++ sources
+fig06*.cpp
+
+# Executables we have produced
+# C++
+fig06_01
+fig06_02
+fig06_03
+fig06_04
+fig06_05
+# Ada
+bar_chart
+counters
+initialize_array
+initialize_constant_array
+initialize_two_arrays
+iterate_array
+search_array
+sum_array
+survey
