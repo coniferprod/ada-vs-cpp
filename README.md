@@ -14,6 +14,6 @@ For copyright reasons the original C++ source code from the book
 is not reproduced here, but instead links to the GitHub repository
 is provided.
 
-# Compiling the Ada program text
+## Compiling the Ada program text
 
 All the Ada programs were compiled with GNATMAKE Community 2020.
