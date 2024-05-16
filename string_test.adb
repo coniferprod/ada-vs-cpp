@@ -32,12 +32,12 @@ begin
       & Ada.Strings.Unbounded.To_String (S3)'Length'Image);
 
    --  Compare strings with = and /=
-   New_Line (2);
+   New_Line;
    Put_Line ("The results of comparing S2 and S1:");
    Result := S2 = S1;
    Put_Line ("S2 = S1: " & Result'Image);
    Result := S2 /= S1;
-   Put_Line ("S2 = S1: " & Result'Image);
+   Put_Line ("S2 /= S1: " & Result'Image);
 
    New_Line;
    Put_Line ("Testing S3 for empty:");
