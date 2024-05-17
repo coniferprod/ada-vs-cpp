@@ -1,13 +1,14 @@
-# Object files from GNAT, g++ and clang++
-*.ali
-*.o
-
 # Configuration files
 .vscode
 .DS_Store
 
 # Original Deitel & Deitel C++ sources
+fig03*.cpp
 fig06*.cpp
+
+# Object files from GNAT, g++ and clang++
+*.ali
+*.o
 
 # Executables we have produced
 # C++
@@ -19,7 +20,9 @@ fig06_05
 # Ada
 addition
 bar_chart
+big_numbers
 compare_integers
+counter_iteration
 counters
 hello
 hello_lines
@@ -27,7 +30,9 @@ initialize_array
 initialize_constant_array
 initialize_two_arrays
 iterate_array
+nested
 search_array
+sentinel_iteration
 string_test
 sum_array
 survey

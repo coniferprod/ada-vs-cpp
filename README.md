@@ -17,3 +17,5 @@ is provided.
 ## Compiling the Ada program text
 
 All the Ada programs were compiled with GNATMAKE Community 2020.
+Some programs use Ada 2022 features (such as big numbers).
+See the respective source file for details.
