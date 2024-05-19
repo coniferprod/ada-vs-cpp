@@ -1,4 +1,5 @@
 --  Corresponds to fig06_06.cpp
+--  https://github.com/pdeitel/CPlusPlus20ForProgrammers/blob/master/examples/ch06/fig06_06.cpp
 
 with Ada.Text_IO;
 with Ada.Integer_Text_IO;
