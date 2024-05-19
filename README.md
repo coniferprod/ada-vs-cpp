@@ -19,3 +19,11 @@ is provided.
 All the Ada programs were compiled with GNATMAKE Community 2020.
 Some programs use Ada 2022 features (such as big numbers).
 See the respective source file for details.
+
+The Ada version of the ZIP file demo from Chapter 4 uses the
+[Zip-Ada](https://unzip-ada.sourceforge.io) library, and is
+supplied as an [Alire](https://alire.ada.dev) project.
+The project was created with the command `alr init --bin zip_demo`,
+and the Zip-Ada library was added using the
+command `alr with zipada`. Build the program with `alr build`
+and run it with `alr run`.

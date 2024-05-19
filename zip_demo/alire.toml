@@ -1,0 +1,15 @@
+name = "zip_demo"
+description = ""
+version = "0.1.0-dev"
+
+authors = ["Jere KÃ¤pyaho"]
+maintainers = ["Jere KÃ¤pyaho <2261936+jerekapyaho@users.noreply.github.com>"]
+maintainers-logins = ["jerekapyaho"]
+licenses = "MIT"
+website = "https://github.com/coniferprod/ada-vs-cpp/zip_demo"
+tags = []
+
+executables = ["zip_demo"]
+
+[[depends-on]]
+zipada = "^58.0.0"
