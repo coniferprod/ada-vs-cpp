@@ -85,7 +85,13 @@ begin
          user_code        : in out Integer) is
       begin
          Ada.Integer_Text_IO.Put (Item => Integer (uncomp_size), Width => 1);
-         Ada.Text_IO.Put (Item => Ada.Calendar.Formatting.Image (Date => Zip_Streams.Calendar.Convert (date_time)));
+
+         --  Zip-Ada has its own datetime type, so we need to convert to Ada's
+         --  Time for use with the Ada 2005+ calendar formatting.
+         Ada.Text_IO.Put (
+            Item => Ada.Calendar.Formatting.Image (
+               Date => Zip_Streams.Calendar.Convert (date_time)));
+
          Ada.Text_IO.Put (name);
          Ada.Text_IO.New_Line;
       end Action;
@@ -117,4 +123,5 @@ begin
 
    --  TODO: Extracting "intro.txt" and Displaying Its Original Contents
 
+   --  FIXME: The timestamp of the created intro.txt doesn't seem quite right
 end Zip_Demo;
