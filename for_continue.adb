@@ -1,5 +1,5 @@
 --  Corresponds to fig04_09.cpp
---  https://github.com/pdeitel/CPlusPlus20ForProgrammers/blob/master/examples/ch03/fig04_09.cpp
+--  https://github.com/pdeitel/CPlusPlus20ForProgrammers/blob/master/examples/ch04/fig04_09.cpp
 
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO;
