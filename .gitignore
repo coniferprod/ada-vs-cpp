@@ -26,6 +26,9 @@ compound_interest
 count_grades
 counter_iteration
 counters
+fact
+fact_iter
+fib
 find_maximum
 for_continue
 for_exit
