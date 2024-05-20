@@ -6,8 +6,6 @@ with Ada.Integer_Text_IO;
 
 procedure For_Continue is
 begin
-   --  For loop variable is not accessible outside the loop,
-   --  so store it on each round.
    for Count in 1 .. 10 loop
       --  The original C++ code:
       --  if (count == 5) {
@@ -21,5 +19,5 @@ begin
    end loop;
 
    New_Line;
-   Put_Line ("Used if statement to skip printing 5");
+   Put_Line ("Used if statement inside for loop to skip printing 5");
 end For_Continue;
